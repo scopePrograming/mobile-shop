@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!--File css-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/form-login.css" />
+
+</head>
+
+<body>
+    <!--Form login starts-->
+    <div class="bg-linear"></div>
+    <div class="container-form">
+        <div class="image-form">
+            <img src="images/mob.svg" />
+        </div>
+        <div class="login-content">
+            <form action="#" method="POST">
+                <img class="avatar-form" src="images/avatar.svg" />
+                <h2 class="title-form">Login</h2>
+                <div class="container-input user">
+                    <div class="input-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="input-content">
+                        <h5 class="input-value">Username</h5>
+                        <input class="input-user" type="text" name="username" autocomplete="off" required />
+                    </div>
+                </div>
+                <div class="container-input pass">
+                    <div class="input-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="input-content">
+                        <h5 class="input-value">Password</h5>
+                        <input class="input-pass" type="password" name="password" autocomplete="off" required />
+                    </div>
+                    <div class="input-icon">
+                        <i class="fas fa-eye-slash show-hidden-pass"></i>
+                    </div>
+                </div>
+                <div class="content">
+                    <a href="#" class="forget-pass">Forget password ?</a>
+                    <a href="register.html" class="register">Register</a>
+                </div>
+                <button type="submit" class="btn btn-form">Login</button>
+            </form>
+        </div>
+    </div>
+    <!--Form login ends-->
+
+    <!--File js-->
+    <script src="js/form-login.js"></script>
+</body>
+
+</html>

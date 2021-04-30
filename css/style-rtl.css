@@ -1,0 +1,463 @@
+:root {
+    --font-ar: 'Cairo', sans-serif;
+}
+
+html,
+body {
+    font-family: var(--font-ar);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/**************start header**************/
+
+.header.shop .top-left .list-main li:first-child {
+    padding-left: 13px;
+}
+
+.header.shop .list-main li {
+    border-left: 1px solid #f0f0f0;
+    border-right: none;
+}
+
+.header.shop .list-main li:last-child {
+    padding-left: 0;
+    padding-right: 13px;
+}
+
+.header.shop .list-main li i {
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+.header.shop .middle-inner {
+    overflow: hidden;
+}
+
+.header.shop .search-bar form {
+    float: none;
+}
+
+.header.shop .nice-select {
+    padding: 0 0 0 55px;
+    border-left: 1px solid #eee;
+}
+
+.header.shop .nice-select::after {
+    left: 20px;
+    right: initial;
+}
+
+.nice-select .option {
+    padding-right: 18px;
+    text-align: center;
+}
+
+.header.shop .right-bar {
+    display: flex;
+    justify-content: space-between;
+    float: none;
+    align-items: center;
+}
+
+.header.shop .right-bar .sinlge-bar {
+    margin-right: 0;
+}
+
+.slicknav_nav .slicknav_arrow {
+    margin: 0 .4em 0 0;
+}
+
+.header .shopping-list .cart-img {
+    margin-left: 0.5rem;
+}
+
+.header .shopping-item .total span {
+    float: right;
+}
+
+.header .shopping-item .total .total-amount {
+    float: left;
+}
+
+.header.shop .cat-heading i {
+    margin-right: initial;
+    margin-left: 15px;
+}
+
+.header.shop .main-category li a i {
+    float: left;
+}
+
+.header.shop .sub-category,
+.header.shop .main-category li .mega-menu {
+    right: 100%;
+    left: initial;
+    border-right: 3px solid var(--color-blue);
+    border-left: initial;
+}
+
+.header.shop .main-category li .mega-menu .single-menu {
+    padding-right: 0;
+}
+
+.header .nav li a i {
+    margin-right: 6px;
+    margin-left: initial;
+}
+
+
+/**************end header**************/
+
+
+/*************start small banner*******/
+
+.small-banner .single-banner .content {
+    right: 0;
+    left: initial;
+    padding-right: 35px;
+    padding-left: initial;
+}
+
+
+/*************end small banner*******/
+
+
+/*************start product area*****/
+
+.single-product .product-img .product-action a {
+    margin-left: 15px;
+    margin-right: initial;
+}
+
+
+/************end product area*******/
+
+
+/************start Midium Banner *******/
+
+.midium-banner .single-banner .content {
+    padding-left: initial;
+    padding-right: 50px;
+    left: initial;
+    right: 0;
+}
+
+
+/************ End Midium Banner *******/
+
+
+/**************Start Most Popular*********/
+
+.owl-carousel {
+    direction: initial;
+}
+
+
+/**************End Most Popular*********/
+
+
+/********Start Shop Home List**********/
+
+.shop-home-list .shop-section-title h1::before {
+    left: initial;
+    right: 0;
+}
+
+
+/********End Shop Home List**********/
+
+
+/*********Start Shop Services Area**********/
+
+.shop-services .single-service {
+    padding-left: initial;
+    padding-right: 65px;
+}
+
+.shop-services .single-service i {
+    left: initial;
+    right: 0;
+}
+
+
+/***********End Shop Services Area*******/
+
+
+/************Start Newsletter Inner**********/
+
+.shop-newsletter .newsletter-inner input {
+    border-radius: 0 30px 30px 0;
+}
+
+.shop-newsletter .newsletter-inner .btn {
+    border-radius: 30px 0 0 30px;
+}
+
+
+/************End Newsletter Inner**********/
+
+
+/************Start Footer**********/
+
+.footer .about {
+    padding-right: 0;
+}
+
+.footer .social ul li {
+    margin-right: initial;
+    margin-left: 25px;
+}
+
+.footer .copyright .right {
+    float: initial;
+    justify-content: flex-end;
+}
+
+
+/************End Footer**********/
+
+
+/************************************
+PAGES STYLE ARABIC
+*************************************/
+
+
+/**********start shop grid *********/
+
+.breadcrumbs .bread-inner {
+    text-align: right;
+}
+
+.shop .shop-shorter {
+    float: right;
+}
+
+.shop .single-shorter {
+    margin-right: initial;
+    margin-left: 10px;
+}
+
+.shop .single-shorter label {
+    float: right;
+    margin: 4px 0 0 5px;
+}
+
+.product-area .shop-top .nice-select {
+    float: right;
+    padding-right: 18px;
+    padding-left: 30px;
+    text-align: right !important;
+}
+
+.product-area .shop-top .nice-select .list {
+    left: initial;
+    right: 0;
+}
+
+.shop .view-mode {
+    float: left;
+}
+
+
+/********end shop grid ************/
+
+
+/******start cart****************/
+
+.shopping-cart .total-amount .left .checkbox {
+    text-align: right;
+}
+
+.shopping-cart .total-amount .left .checkbox label::before {
+    left: 12px;
+}
+
+.shopping-cart .total-amount .right {
+    padding-left: 0;
+}
+
+.shopping-cart .total-amount .right ul li span {
+    float: left;
+}
+
+
+/*****end cart*********************/
+
+
+/**********Start contact***********/
+
+.contact-us .single-info {
+    text-align: right;
+}
+
+.contact-us .form .form-group label span {
+    left: -12px;
+    right: initial;
+}
+
+
+/**********End contact***********/
+
+
+/**********Start checkout***********/
+
+.shop.checkout .single-widget h2:before {
+    left: initial;
+    right: 30px;
+}
+
+.shop.checkout .form .form-group label span {
+    left: -12px;
+    right: initial;
+}
+
+.shop.checkout .single-widget .content ul li span {
+    float: left;
+}
+
+.shop.checkout .single-widget .checkbox label {
+    padding-right: 20px;
+    padding-left: initial;
+    text-align: right;
+}
+
+.shop.checkout .single-widget .checkbox label::before {
+    right: 0;
+    left: initial;
+}
+
+
+/**********End checkout***********/
+
+
+/**********Start blog-single-slidebar*******/
+
+.blog-single .blog-meta .author a {
+    border-right: none;
+    border-left: 1px solid #ddd;
+}
+
+.blog-single .blog-meta .author a:first-child {
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+.blog-single .blog-meta .author a:last-child {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.blog-single .blog-meta .author i {
+    margin-right: initial;
+    margin-left: 10px;
+}
+
+.blog-single blockquote {
+    border-right: 3px solid var(--color-blue);
+    border-left: none;
+    padding-left: initial;
+    padding: 30px 70px 30px 40px;
+}
+
+.blog-single blockquote i {
+    left: initial;
+    right: 20px;
+}
+
+.blog-single .share-social .content-tags h4 {
+    left: initial;
+    right: 0;
+}
+
+.blog-single .share-social .content-tags .tag-inner {
+    padding-left: initial;
+    padding-right: 60px;
+}
+
+.blog-single .comments .comment-title {
+    padding-left: initial;
+    padding-right: 12px;
+}
+
+.blog-single .comments .comment-title:before {
+    left: initial;
+    right: 0;
+}
+
+.blog-single .comments .single-comment {
+    padding-left: initial;
+    padding-right: 95px;
+}
+
+.blog-single .comments .single-comment img {
+    left: initial;
+    right: 0;
+}
+
+.blog-single .single-comment .content a i {
+    margin-right: initial;
+    margin-left: 5px;
+}
+
+.main-sidebar .single-widget .title {
+    padding-left: initial;
+    padding-right: 12px;
+}
+
+.main-sidebar .single-widget .title::before {
+    left: initial;
+    right: 0;
+}
+
+.blog-single .reply .reply-title:before {
+    left: initial;
+    right: 0;
+}
+
+.blog-single .reply .form-group label span {
+    right: initial;
+    left: -12px;
+}
+
+.blog-single .reply .button {
+    text-align: right;
+}
+
+.blog-single .reply .reply-title {
+    padding-left: initial;
+    padding-right: 12px;
+}
+
+.main-sidebar .single-post .image img {
+    margin-right: initial;
+    float: right;
+    margin-left: 20px;
+}
+
+.main-sidebar .single-post .content {
+    padding-left: initial;
+    padding-right: 100px;
+}
+
+.main-sidebar .single-post .content .comment li {
+    margin-right: initial;
+    margin-left: 15px;
+}
+
+.main-sidebar .single-post .content .comment li i {
+    margin-right: initial;
+    margin-left: 5px;
+}
+
+element.style {}
+
+.main-sidebar .newsletter .letter-inner input {
+    padding: 0 10px;
+}
+
+
+/**********Start blog-single-slidebar*******/

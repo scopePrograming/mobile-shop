@@ -1,0 +1,16 @@
+@import url(../font/Poppins-Black.ttf);
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Form login starts*/
+
+.input-value {
+    right: .5rem;
+    left: initial;
+}
+
+.content {
+    flex-direction: row-reverse;
+}
